@@ -1,0 +1,31 @@
+I"�<h2 id="introduction">Introduction</h2>
+<p>Formatting dates can be tricky if you need a specific format. In this tutorial we’ll show you how to build a date in almost any format.</p>
+
+<h2 id="setup">Setup</h2>
+<p>We’ll start by setting a date in front matter in ISO 8601 format.</p>
+<pre class="highlight">
+<code>
+---
+layout: default
+title: Date Formatting
+date: 2016-03-23T10:20:00Z
+---
+</code>
+</pre>
+<p>Now we can run the date through a filter to get the desired format.</p>
+
+<h2 id="date_to_long_string">date_to_long_string</h2>
+<p>Input:</p>
+<pre class="highlight">
+<code>
+23 March 2020
+</code>
+</pre>
+<p>Output:</p>
+<pre class="highlight">
+<code>
+23 March 2016
+</code>
+</pre>
+
+:ET

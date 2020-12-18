@@ -1,0 +1,7 @@
+site_name: Codography
+permalink: /:title
+defaults:
+  - scope:
+      path: "src/img"
+    values:
+      image: true

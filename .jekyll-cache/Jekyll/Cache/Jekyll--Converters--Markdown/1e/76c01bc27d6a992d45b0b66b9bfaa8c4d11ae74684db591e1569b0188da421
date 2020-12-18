@@ -1,0 +1,53 @@
+I"�<h2 id="introduction">Introduction</h2>
+<p>Định dạng ngày tháng có thể phức tạp nếu bạn cần một định dạng cụ thể. Trong bài viết này, mình sẽ chỉ cho bạn cách tạo ngày tháng ở hầu hết mọi định dạng.</p>
+
+<h2 id="setup">Setup</h2>
+<p>We’ll start by setting a date in front matter in ISO 8601 format.</p>
+<pre class="highlight">
+<code>---
+layout: default
+title: Date Formatting
+date: 2016-03-23T10:20:00Z
+---</code>
+</pre>
+<p>Now we can run the date through a filter to get the desired format.</p>
+
+<h2 id="date_to_long_string">date_to_long_string</h2>
+<p>Input:</p>
+<pre class="highlight"><code>&#123;&#123; page.date | date_to_long_string &#125;&#125;</code></pre>
+<p>Output:</p>
+<pre class="highlight">23 March 2016</pre>
+
+<h2 id="date_to_rfc822">date_to_rfc822</h2>
+<p>Input:</p>
+<pre class="highlight"><code>&#123;&#123; page.date | date_to_rfc822 &#125;&#125;</code></pre>
+<p>Output:</p>
+<pre class="highlight">Wed, 23 Mar 2016 23:20:00 +1300</pre>
+
+<h2 id="date_to_string">date_to_string</h2>
+<p>Input:</p>
+<pre class="highlight"><code>&#123;&#123; page.date | date_to_string &#125;&#125;</code></pre>
+<p>Output:</p>
+<pre class="highlight">23 Mar 2016</pre>
+
+<h2 id="date_to_xmlschema">date_to_xmlschema</h2>
+<p>Input:</p>
+<pre class="highlight"><code>&#123;&#123; page.date | date_to_xmlschema &#125;&#125;</code></pre>
+<p>Output:</p>
+<pre class="highlight">2016-03-23T23:20:00+13:00</pre>
+
+<h2 id="date">date</h2>
+<p><span class="highlight">date</span> gives us complete control of the format. We can specify a template of the format we want. For example.</p>
+
+<p>Input:</p>
+<pre class="highlight"><code>&#123;&#123; page.date | date: "%m/%d/%Y" &#125;&#125;</code></pre>
+<p>Output:</p>
+<pre class="highlight">03/23/2016</pre>
+<p>or</p>
+
+<p>Input:</p>
+<pre class="highlight"><code>&#123;&#123; page.date | date: "%-d %B %Y" &#125;&#125;</code></pre>
+<p>Output:</p>
+<pre class="highlight">23 March 2016</pre>
+
+:ET
