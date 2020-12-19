@@ -34,6 +34,10 @@
 .nav-item {
     margin: 0 15px 5px;
 }
+.nav-item--ui {
+    font-weight: 200;
+    font-size: 14px;   
+}
 .nav-item:hover a{
     color: white;
 }
@@ -44,14 +48,18 @@
     max-width: 1200px;
 }
 .site-content {
-    padding-top: 40px;
+    /* padding-top: 40px; */
     background-color: var(--secondary-color);
+}
+.inside {
+    padding-top: 4rem;
 }
 .post-wrapper {
     margin-bottom: 4rem;
 }
 .card {
     width: 90%;
+    height: 100%;
     margin: 0 auto;
     border: none;
     text-align: center;
@@ -160,3 +168,36 @@ h1.entry-title {
     font-size: 18px;
     font-weight: 300;
 }
+.ui__wrapper {
+    --font-code: "SF Mono";
+    --code-bg: #292e3e;
+    max-width: 1440px;
+    margin: 0px auto;
+    min-height: calc(100vh - 300px);
+}
+
+@media screen and (min-width: 768px){
+    .ui__wrapper .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 50px;
+        padding: 20px 50px 0px;
+    }
+    .ui__wrapper .grid--23 {
+        grid-template-columns: 1fr 2fr;
+    }
+}
+
+.ui__wrapper .grid__column {
+    display: flex;
+    flex-direction: column-reverse;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+.ui__wrapper .grid__item {
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 10px 20px 20px;
+    border-radius: 2px;
+}
+
