@@ -3,7 +3,8 @@
     --secondary-color:#1c2340;
     --third-color:#151f3f ;
     --text-color: #9eb0e2;
-    --title-color: #04ad7b;
+    --title-color: #1fc6a0;
+    --font: 'Open Sans', sans-serif;
 }
 
 *{
@@ -13,7 +14,7 @@
 html{
     font-size: 62.5%;
     line-height: 1.6rem;
-    font-family: 'Poppins', sans-serif;
+    font-family: var(--font);
     box-sizing: border-box;
 }
 p{
