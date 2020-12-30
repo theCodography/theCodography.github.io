@@ -34,3 +34,7 @@ pre.highlight {
     margin-bottom: 25px;
     padding: 10px 0;
 }
+h3 {
+    font-size: 2.4rem;
+    font-weight: 600;
+}

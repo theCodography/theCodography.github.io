@@ -3,6 +3,7 @@ title: Date formatting Jekyll
 layout: post
 date: 2020-12-18T04:12:00Z
 description: Định dạng ngày tháng có thể phức tạp nếu bạn cần một định dạng cụ thể. Trong bài viết này, mình sẽ chỉ cho bạn cách tạo ngày tháng ở hầu hết mọi định dạng.
+imgUrl: jekyll.jpg
 ---
 ## Giới thiệu
 Định dạng ngày tháng có thể phức tạp nếu bạn cần một định dạng cụ thể. Trong bài viết này, mình sẽ chỉ cho bạn cách tạo ngày tháng ở hầu hết mọi định dạng.

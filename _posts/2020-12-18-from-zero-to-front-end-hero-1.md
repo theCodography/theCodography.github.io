@@ -3,6 +3,7 @@ title: From Zero to Front-end Hero (Part 1)
 layout: post
 date: 2020-12-22T9:13:00Z
 description: Tôi nhớ khi bắt đầu học front-end. Tôi đã tìm được rất nhiều bài viết, tài nguyên, và vì thế tôi đã bị quá tải, tôi không biết mình cần học gì và thậm chí cũng chẳng biết bắt đầu từ đâu.
+imgUrl: front-end.png
 ---
 
 *Bài viết được dịch từ: [from-zero-to-front-end-hero](https://www.freecodecamp.org/news/from-zero-to-front-end-hero-part-1-7d4f7f0bff02/#.1dfar8kg1)*
@@ -32,7 +33,7 @@ Trong quá trình học, đừng lo lắng về việc bạn phải nhớ quá n
 ## Luyện tập HTML và CSS cơ bản
 Bây giờ bạn đã có hiểu biết cơ bản về HTML và CSS, hãy làm một vài thứ thú vị. Trong phần này có 2 thí nghiệm đã được thiết kế để giúp bạn luyện tập việc xây dựng các giao diện và website. Tôi dùng từ "thí nghiệm" bởi vì trong quá trình thí nghiệm, bạn sẽ học được rất nhiều từ thất bại và nó sẽ giúp bạn đi tới thành công.
 
-## Thí nghiệm 1
+### Thí nghiệm 1
 Trong thí nghiệm đầu tiên, chúng ta sử dụng [CodePen](https://codepen.io). CodePen là một sân chơi cho front-end nơi bạn có thể code HTML và CSS mà không cần lưu trữ các file trên máy tính. Nó cũng có live preview cái cập nhật giao diện ngay sau khi bạn code.
 
 Bằng cách sử dụng CodePen, bạn sẽ đạt được 2 thứ. Đầu tiên, là luyện tập kỹ năng HTML và CSS. Thứ hai, bạn đã tạo ra một bộ sưu tập các sản phẩm của mình. Chúng ta cũng sử dụng [Dribbble](https://dribbble.com/), một trang web với nhiều thiết kế giúp đem lại cảm hứng cho bạn.
@@ -54,7 +55,7 @@ Nếu bản copy của bạn trông khác so với thiết kế gốc, đừng n
 
 Nếu bạn không có một nền tảng kiến thức về thiết kế, có thể con mắt thiết kế của bạn chưa được phát triển. Một front-end developer với con mắt thiết kế tốt có thể xác định các thiết kế tốt và tái hiện chúng một cách hoàn hảo. Tôi đã viết một bài hướng dẫn về [cách phát triển con mắt thiết kế của bạn](https://medium.com/@JonathanZWhite/developing-your-eye-for-design-cce944bbeae4#.norh8v3ah).
 
-## Thí nghiệm 2
+### Thí nghiệm 2
 Hi vọng thí nghiệm đầu tiên đã đem lại cho bạn sự tin khi viết code HTML và CSS. Trong thí nghiệm 2, chúng ta sẽ xem xét một vài website, sau đó code một vài thành phần của chúng.
 
 Nhiều website sử dụng các CSS framework hoặc đặt tên các class CSS khó hiểu, làm cho bạn khó đọc source code. Đó là lý do tại sao tôi chọn sẵn một vài website được thiết kế tốt với source code dễ đọc.
